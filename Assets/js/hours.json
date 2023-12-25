@@ -1,0 +1,72 @@
+[
+    {
+      "hour": 9,
+      "id": "#hour-9",
+      "hourEl": "document.getElementById(#hour-9);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 10,
+      "id": "#hour-10",
+      "hourEl": "document.getElementById(#hour-10);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 11,
+      "id": "#hour-11",
+      "hourEl": "document.getElementById(#hour-11);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 12,
+      "id": "#hour-12",
+      "hourEl": "document.getElementById(#hour-12);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 13,
+      "id": "hour-13",
+      "hourEl": "document.getElementById(#hour-13);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 14,
+      "id": "hour-14",
+      "hourEl": "document.getElementById(#hour-14);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 15,
+      "id": "hour-15",
+      "hourEl": "document.getElementById(#hour-15);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 16,
+      "id": "hour-16",
+      "hourEl": "document.getElementById(#hour-16);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 17,
+      "id": "hour-17",
+      "hourEl": "document.getElementById(#hour-17);",
+      "event": "",
+      "boolean": false
+    },
+    {
+      "hour": 18,
+      "id": "hour-18",
+      "hourEl": "document.getElementById(#hour-18);",
+      "event": "",
+      "boolean": "false"
+    }
+  ]
