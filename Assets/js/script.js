@@ -10,6 +10,7 @@ $(function () {
     const currentHour = dayjs().hour();
     let hourID = "hour-" + x;
     let element = document.getElementById(hourID);
+    
     if (x < currentHour) {
       element.classList.add("past");
     }
@@ -24,12 +25,9 @@ $(function () {
 
   // Save event to local storage
   function saveEvent(x) {
-    console.log("x is " + x);
     const inputID = "input-" + x;
-    console.log("inputID is " + inputID);
     const inputEl = document.getElementById(inputID);
     let input = inputEl.value;
-    console.log("input is " + input);
     let storedEvents = JSON.parse(localStorage.getItem("events")) || [];
     storedEvents.push({
       hour: x.trim(),
@@ -38,32 +36,39 @@ $(function () {
     localStorage.setItem("events", JSON.stringify(storedEvents));
   }
 
+  // Capturing timeblocks for color coding
   const hours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
   hours.forEach(addColorCode);
 
+  // Listener for click events on all of the save buttons.
   const buttons = document.querySelectorAll('.btn');
-
   buttons.forEach(function (button) {
     button.addEventListener('click', (event) => {
       let target = event.currentTarget.getAttribute("id");
-      console.log("target is " + target);
       event.preventDefault();
       console.log("button clicked");
       saveEvent(target);
     });
   });
-  // Listener for click events on the save button.
+
+  // Listener for clear button
+  const clear = document.getElementById("clear");
+  clear.addEventListener('click', () => {
+    localStorage.clear();
+    location.reload();
+  }
+  )
 
   // Get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements.
-  // How to overwrite previous values?
   window.addEventListener('load', function () {
+    console.log("window is reloaded");
     let storedEvents = JSON.parse(localStorage.getItem("events")) || [];
-
     storedEvents.forEach((item) => {
-      outputID = item.hour;
+      outputID = "input-" + item.hour;
       const outputEl = document.getElementById(outputID);
-      outputEl.value = item.event;
+      console.log("Saved event for " + item.hour + "th hour is: " + item.event);
+      outputEl.textContent = item.event;
     });
 
   });
