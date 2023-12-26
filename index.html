@@ -27,10 +27,15 @@
   <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
-    <h3 id="currentDay" class="lead"></h3>
+    <h3 id="currentDay" class="lead"><!-- Container for current day --></h3>
   </header>
+
   <div class="container-lg px-5">
+    <!-- Button that clears all local storage and refreshes the page -->
+    <h4 id="clear" align="center">CLEAR ALL</h4>
     <form id="scheduler">
+
+      <!-- Time blocks that are automatically formatted by class name in past, present, future -->
       <div id="hour-9" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3"><label for="9">9AM</label></div>
         <textarea id="input-9" name="input-9" class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -104,8 +109,9 @@
       </div>
     </form>
   </div>
-  <script src="assets/js/script.js"></script>
 
+  <!-- Link to my javascript file -->
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
