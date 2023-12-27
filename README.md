@@ -7,21 +7,21 @@ A simple work day scheduler that allows you to enter events in a text box and sa
 N/A
 
 ## Usage
-Deployed link: !["https://kerilsen.github.io/work-day-scheduler/"]("https://kerilsen.github.io/work-day-scheduler/")
+Deployed link: ![https://kerilsen.github.io/work-day-scheduler/](https://kerilsen.github.io/work-day-scheduler/)
 
-GitHub repository: !["https://github.com/kerilsen/work-day-scheduler/"]("https://github.com/kerilsen/work-day-scheduler")
+GitHub repository: ![https://github.com/kerilsen/work-day-scheduler/](https://github.com/kerilsen/work-day-scheduler)
 
 When you first load the page, you are presented with an empty scheduler with one hour time blocks from 9am-5pm.
 
-![Screenshot of empty scheduler] (./Assets/images/screenshot_empty-scheduler.png)
+![Screenshot of empty scheduler](./Assets/images/screenshot_empty-scheduler.png)
 
 You can enter in your events for the day and press the corresponding save button on the right to save each event to local storage.
 
-![Screenshot of saved events] (./Assets/images/screenshot_saved-events.png)
+![Screenshot of saved events](./Assets/images/screenshot_saved-events.png)
 
 Events will persist when page is reloaded until your local storage is cleared or you press the "clear all" button at the top of the page.
 
-![Screenshot of clear button] (./Assets/images/screenshot_clear-button.png)
+![Screenshot of clear button](./Assets/images/screenshot_clear-button.png)
 
 ## Credits
 N/A
