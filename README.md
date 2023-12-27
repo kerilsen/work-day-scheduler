@@ -7,9 +7,9 @@ A simple work day scheduler that allows you to enter events in a text box and sa
 N/A
 
 ## Usage
-Deployed link: ![https://kerilsen.github.io/work-day-scheduler/](https://kerilsen.github.io/work-day-scheduler/)
+Deployed link: [https://kerilsen.github.io/work-day-scheduler/](https://kerilsen.github.io/work-day-scheduler/)
 
-GitHub repository: ![https://github.com/kerilsen/work-day-scheduler/](https://github.com/kerilsen/work-day-scheduler)
+GitHub repository: [https://github.com/kerilsen/work-day-scheduler/](https://github.com/kerilsen/work-day-scheduler)
 
 When you first load the page, you are presented with an empty scheduler with one hour time blocks from 9am-5pm.
 
